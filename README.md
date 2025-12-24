@@ -1,2 +1,1 @@
-https://roadmap.sh/projects/iac-digitalocean
-Repository for various projects, alot of the projects are done in both bash and python if applicable.
+This is a collection of mini-projects that I have worked on on AWS.
