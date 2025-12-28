@@ -3,7 +3,9 @@ Top 5 most requested paths
 Top 5 response status codes
 Top 5 user agents
 '''
+# Log file location.
 #https://gist.githubusercontent.com/kamranahmedse/e66c3b9ea89a1a030d3b739eeeef22d0/raw/77fb3ac837a73c4f0206e78a236d885590b7ae35/nginx-access.log
+
 import re
 from collections import Counter
 
@@ -47,4 +49,5 @@ def main():
             print(f"{item} - {count}")
 
 if __name__ == '__main__':
+
     main()
